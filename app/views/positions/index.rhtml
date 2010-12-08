@@ -1,0 +1,9 @@
+<h1>Liste des positions</h1>
+
+<p><b>Nom</b></p>
+
+<% for position in @position %>
+  <p>
+    <%= link_to position.nom, position  %>
+  </p>
+<%end%>
